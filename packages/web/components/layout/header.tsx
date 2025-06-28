@@ -82,9 +82,9 @@ export function Header() {
           <div className="hidden md:block">
             <Button
               asChild
-              className="bg-brand-400 hover:bg-brand-500 shadow-lg hover:shadow-xl transition-all duration-200"
+              className="bg-[rgb(24,59,63)] hover:bg-[rgb(18,45,48)] text-white shadow-lg hover:shadow-xl transition-all duration-200 border border-[rgb(24,59,63)] hover:border-[rgb(18,45,48)]"
             >
-              <Link href="/contacto">Comenzar proyecto</Link>
+              <Link href="/chatbot">Comenzar proyecto</Link>
             </Button>
           </div>
 
@@ -127,9 +127,9 @@ export function Header() {
               <div className="px-3 pt-2">
                 <Button
                   asChild
-                  className="w-full bg-brand-400 hover:bg-brand-500"
+                  className="w-full bg-[rgb(24,59,63)] hover:bg-[rgb(18,45,48)] text-white"
                 >
-                  <Link href="/contacto">Comenzar proyecto</Link>
+                  <Link href="/chatbot">Comenzar proyecto</Link>
                 </Button>
               </div>
             </div>
