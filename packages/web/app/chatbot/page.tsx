@@ -217,8 +217,8 @@ export default function ChatbotPage() {
           </div>
 
           {/* Chat Interface */}
-          <div className="lg:col-span-3">
-            <Card className="bg-gray-800/50 border-gray-700 backdrop-blur-sm h-[600px] flex flex-col">
+          <div className="lg:col-span-3 lg:self-stretch">
+            <Card className="bg-gray-800/50 border-gray-700 backdrop-blur-sm h-full flex flex-col">
               
               {/* Messages Container */}
               <div className="flex-1 p-6 overflow-y-auto space-y-4">

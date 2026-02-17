@@ -1,6 +1,4 @@
 {
-  "/page": "app/page.js",
-  "/metodologia/page": "app/metodologia/page.js",
-  "/contacto/page": "app/contacto/page.js",
-  "/valores/page": "app/valores/page.js"
+  "/api/talks/questionnaire/route": "app/api/talks/questionnaire/route.js",
+  "/talks/cuestionario/otorrinolaringologia/page": "app/talks/cuestionario/otorrinolaringologia/page.js"
 }

@@ -8,12 +8,14 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
+import chipImage from "@/assets/chip.png";
+
 const navigation = [
   { name: "Inicio", href: "/" },
   { name: "Servicios", href: "/servicios" },
   { name: "Metodología", href: "/metodologia" },
   { name: "Valores", href: "/valores" },
-  { name: "Blog", href: "/blog" },
+  { name: "TALKS", href: "/talks", icon: chipImage },
   { name: "Contacto", href: "/contacto" },
 ];
 
@@ -59,13 +61,13 @@ export function Header() {
           </div>
 
           {/* Desktop navigation */}
-          <div className="hidden md:flex md:space-x-8">
+          <div className="hidden md:flex md:space-x-8 md:items-center">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
                 className={cn(
-                  "text-base font-medium transition-all duration-200 relative",
+                  "text-base font-medium transition-all duration-200 relative inline-flex items-center gap-2",
                   pathname === item.href
                     ? "text-brand-300 after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-0.5 after:bg-brand-300 after:rounded-full"
                     : scrolled 
@@ -73,6 +75,15 @@ export function Header() {
                       : "text-white hover:text-brand-300",
                 )}
               >
+                {"icon" in item && item.icon && (
+                  <Image
+                    src={item.icon}
+                    alt=""
+                    width={24}
+                    height={24}
+                    className="object-contain shrink-0"
+                  />
+                )}
                 {item.name}
               </Link>
             ))}
@@ -114,13 +125,22 @@ export function Header() {
                   key={item.name}
                   href={item.href}
                   className={cn(
-                    "block px-3 py-2 text-base font-medium transition-colors hover:text-brand-300 hover:bg-white/5 rounded-md",
+                    "flex items-center gap-2 px-3 py-2 text-base font-medium transition-colors hover:text-brand-300 hover:bg-white/5 rounded-md",
                     pathname === item.href
                       ? "text-brand-300 bg-white/10"
                       : "text-white",
                   )}
                   onClick={() => setMobileMenuOpen(false)}
                 >
+                  {"icon" in item && item.icon && (
+                    <Image
+                      src={item.icon}
+                      alt=""
+                      width={22}
+                      height={22}
+                      className="object-contain shrink-0"
+                    />
+                  )}
                   {item.name}
                 </Link>
               ))}

@@ -112,7 +112,7 @@ export default function HomePage() {
         />
 
         {/* VSCode-like Editor Window - moved to the right */}
-        <div className="absolute left-32 top-1/2 -translate-y-1/2 w-full max-w-2xl h-[25vh] rounded-2xl shadow-2xl border border-white/10 bg-gradient-to-br from-brand-900 via-brand-800 to-brand-900 overflow-hidden">
+        <div className="absolute left-2 sm:left-4 md:left-6 top-1/2 -translate-y-1/2 w-full max-w-[31.5rem] h-[33vh] rounded-2xl shadow-2xl border border-white/10 bg-gradient-to-br from-brand-900 via-brand-800 to-brand-900 overflow-hidden">
           {/* Top bar */}
           <div className="flex items-center h-10 px-4 bg-gradient-to-r from-brand-800/80 to-brand-700/80 border-b border-white/10">
             {/* Window controls */}

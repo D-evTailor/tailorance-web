@@ -6,30 +6,15 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/talks/cuestionario/otorrinolaringologia/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/talks/cuestionario/otorrinolaringologia/page.js"
     ],
-    "/servicios/page": [
+    "/api/talks/questionnaire/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/servicios/page.js"
-    ],
-    "/metodologia/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/metodologia/page.js"
-    ],
-    "/valores/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/valores/page.js"
-    ],
-    "/contacto/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contacto/page.js"
+      "static/chunks/app/api/talks/questionnaire/route.js"
     ]
   }
 }
