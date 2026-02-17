@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-02-17T10:26:35.760Z",
+  "specialtyFilter": "otorrinolaringologia",
+  "totalResponses": 0,
+  "readiness": {
+    "score": 0,
+    "habitual": 0,
+    "occasional": 0,
+    "noUse": 0
+  },
+  "highlights": {
+    "topPain": null,
+    "topRepeat": null,
+    "topBarrier": null,
+    "topUseCase": null,
+    "topIdealHelp": []
+  },
+  "topTerms": []
+}
