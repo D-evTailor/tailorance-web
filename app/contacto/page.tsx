@@ -33,7 +33,7 @@ interface ContactForm {
 
 const contactInfo = [
   { icon: Mail, title: "Email", value: siteConfig.email },
-  { icon: Phone, title: "Teléfono", value: "695140503" },
+  { icon: Phone, title: "Teléfono", value: "+34 695140503" },
   { icon: MapPin, title: "Ubicación", value: "España (Remoto)" },
   { icon: Clock, title: "Horario", value: "Lun - Vie: 9:00 - 18:00" },
 ];
