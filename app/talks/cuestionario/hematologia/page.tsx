@@ -18,7 +18,7 @@ export default function CuestionarioHematologiaPage() {
                 montar ahora con el mismo formato de Otorrinolaringologia.
               </p>
               <Link href="/talks" className="text-ainure-300 hover:text-ainure-200">
-                Volver a TALKS
+                Volver a AINURE
               </Link>
             </CardContent>
           </Card>

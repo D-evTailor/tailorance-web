@@ -321,10 +321,10 @@ export default function CuestionarioOtorrinoPage() {
   }
 
   return (
-    <div className={cn("app-page", lightMode ? "bg-[radial-gradient(circle_at_14%_10%,rgba(76,112,77,0.12),transparent_38%),radial-gradient(circle_at_86%_0%,rgba(85,126,88,0.10),transparent_26%)]" : "")} style={localThemeVars}>
+    <div className={cn("app-page pt-0 sm:pt-0", lightMode ? "bg-[radial-gradient(circle_at_14%_10%,rgba(76,112,77,0.12),transparent_38%),radial-gradient(circle_at_86%_0%,rgba(85,126,88,0.10),transparent_26%)]" : "")} style={localThemeVars}>
       <div className="app-container">
         <div className="mx-auto max-w-4xl">
-          <div className="sticky top-3 z-30 mb-6 sm:top-4">
+          <div className="sticky top-0 z-40 mb-6">
             <div className="rounded-xl border border-border/80 bg-background/90 p-3 shadow-[0_10px_30px_rgba(0,0,0,0.28)] backdrop-blur">
               <div className="mb-2 flex items-center justify-between">
                 <p className="text-xs text-foreground/70">Progreso del cuestionario</p>
@@ -641,4 +641,3 @@ export default function CuestionarioOtorrinoPage() {
     </div>
   );
 }
-
