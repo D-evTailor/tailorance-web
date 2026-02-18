@@ -33,13 +33,14 @@ interface ContactForm {
 
 const contactInfo = [
   { icon: Mail, title: "Email", value: siteConfig.email },
-  { icon: Phone, title: "Teléfono", value: "+34 XXX XXX XXX" },
+  { icon: Phone, title: "Teléfono", value: "695140503" },
   { icon: MapPin, title: "Ubicación", value: "España (Remoto)" },
   { icon: Clock, title: "Horario", value: "Lun - Vie: 9:00 - 18:00" },
 ];
 
 export default function ContactoPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
   const { toast } = useToast();
 
   const {
@@ -52,6 +53,7 @@ export default function ContactoPage() {
 
   const onSubmit = async (data: ContactForm) => {
     setIsSubmitting(true);
+    setSubmitStatus("idle");
 
     try {
       const response = await fetch(
@@ -69,6 +71,7 @@ export default function ContactoPage() {
         title: "Mensaje enviado",
         description: "Nos pondremos en contacto contigo pronto.",
       });
+      setSubmitStatus("success");
 
       reset();
     } catch (error) {
@@ -77,6 +80,7 @@ export default function ContactoPage() {
         description: "Hubo un problema al enviar el mensaje. Inténtalo de nuevo.",
         variant: "destructive",
       });
+      setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);
     }
@@ -94,7 +98,7 @@ export default function ContactoPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 lg:items-stretch">
           {/* Información de contacto */}
           <div className="lg:col-span-1">
             <div className="space-y-4">
@@ -111,15 +115,15 @@ export default function ContactoPage() {
           </div>
 
           {/* Formulario de contacto */}
-          <div className="lg:col-span-2">
-            <Card className="border-white/10 bg-surface-elevated/70 backdrop-blur-sm">
+          <div className="h-full lg:col-span-2">
+            <Card className="flex h-full flex-col border-white/10 bg-surface-elevated/70 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="text-text-primary">Cuéntanos sobre tu proyecto</CardTitle>
                 <CardDescription className="text-text-secondary">
                   Nos pondremos en contacto contigo en menos de 24 horas
                 </CardDescription>
               </CardHeader>
-              <CardContent>
+              <CardContent className="flex-1">
                 <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
                   <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                     <div>
@@ -203,6 +207,16 @@ export default function ContactoPage() {
                   >
                     {isSubmitting ? "Enviando..." : "Enviar mensaje →"}
                   </button>
+                  {submitStatus === "success" && (
+                    <p className="text-center text-sm text-ainure-300">
+                      Mensaje enviado correctamente.
+                    </p>
+                  )}
+                  {submitStatus === "error" && (
+                    <p className="text-center text-sm text-red-400">
+                      No se pudo enviar el mensaje. Revisa los datos e inténtalo de nuevo.
+                    </p>
+                  )}
                 </form>
               </CardContent>
             </Card>

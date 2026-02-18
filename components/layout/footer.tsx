@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { siteConfig } from "@/lib/site.config";
-import logoImage from "@/assets/images/logo.png";
+import logoImage from "@/assets/images/logo2.png";
 
 const links = [
   { label: "Servicios", href: "/servicios" },
@@ -62,6 +62,14 @@ export function Footer() {
                   </a>
                 </li>
                 <li className="text-sm text-text-secondary">Espana / Remote-first</li>
+                <li>
+                  <a
+                    href="tel:695140503"
+                    className="text-sm text-text-secondary transition-colors hover:text-ainure-300"
+                  >
+                    695140503
+                  </a>
+                </li>
                 <li>
                   <a
                     href={siteConfig.social.github}
