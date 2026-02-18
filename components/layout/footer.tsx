@@ -64,10 +64,10 @@ export function Footer() {
                 <li className="text-sm text-text-secondary">Espana / Remote-first</li>
                 <li>
                   <a
-                    href="tel:695140503"
+                    href="tel:+34695140503"
                     className="text-sm text-text-secondary transition-colors hover:text-ainure-300"
                   >
-                    695140503
+                    +34 695140503
                   </a>
                 </li>
                 <li>
