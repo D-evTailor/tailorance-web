@@ -22,6 +22,15 @@ yarn-error.log*
 !.env.example
 !.env.*.example
 !.env.local.example
+.envrc
+*.env.backup
+*.secrets
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.crt
 
 # vercel
 .vercel

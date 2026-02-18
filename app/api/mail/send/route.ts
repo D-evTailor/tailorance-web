@@ -75,8 +75,12 @@ export async function POST(request: Request) {
     }
 
     const recipientEmail = getEnvOrFallback("CONTACT_FORM_TO_EMAIL", siteConfig.email);
-    const senderEmail = getEnvOrFallback("MAILERSEND_SENDER_EMAIL", siteConfig.email);
-    const senderName = process.env.MAILERSEND_SENDER_NAME || siteConfig.legalName;
+    const senderEmail = getEnvOrFallback(
+      "MAIL_SENDER_EMAIL",
+      getEnvOrFallback("MAILERSEND_SENDER_EMAIL", getEnvOrFallback("ZOHO_SMTP_USER", siteConfig.email)),
+    );
+    const senderName =
+      process.env.MAIL_SENDER_NAME || process.env.MAILERSEND_SENDER_NAME || siteConfig.legalName;
 
     const template = buildContactTemplate(parsed.data);
 
