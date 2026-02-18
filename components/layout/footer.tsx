@@ -61,7 +61,7 @@ export function Footer() {
                     {siteConfig.email}
                   </a>
                 </li>
-                <li className="text-sm text-text-secondary">Espana / Remote-first</li>
+                <li className="text-sm text-text-secondary">España / Remote-first</li>
                 <li>
                   <a
                     href="tel:+34695140503"
