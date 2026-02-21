@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://ainure.com/logo2.png",
+        url: "https://ainure.com/logo3.png",
         width: 1200,
         height: 630,
         alt: `${siteConfig.name} logo`,
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${siteConfig.name} - ${siteConfig.slogan}`,
     description: siteConfig.description,
-    images: ["https://ainure.com/logo2.png"],
+    images: ["https://ainure.com/logo3.png"],
   },
   generator: "v0.dev",
 };
