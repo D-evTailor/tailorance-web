@@ -72,3 +72,6 @@ logs/
 # Build artifacts (libs/paquetes)
 dist/
 
+# Claude Code
+.claude/
+.Rproj.user

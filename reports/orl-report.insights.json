@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-02-25T08:41:50.698Z",
+  "specialtyFilter": "otorrinolaringologia",
+  "totalResponses": 15,
+  "readiness": {
+    "score": 0,
+    "habitual": 0,
+    "occasional": 0,
+    "noUse": 1
+  },
+  "highlights": {
+    "topPain": [
+      "Datos/estadística/tablas",
+      7
+    ],
+    "topRepeat": [
+      "Informes de consulta",
+      6
+    ],
+    "topBarrier": [
+      "Nada, la usaría si estuviera disponible",
+      4
+    ],
+    "topUseCase": [
+      "Cómo hablar con IA (prompting) para resultados fiables",
+      9
+    ],
+    "topIdealHelp": [
+      [
+        "Escribir el informe de la consulta mientras hablo",
+        6
+      ],
+      [
+        "Ayudar con artículos o investigación",
+        5
+      ],
+      [
+        "Sugerir diagnósticos",
+        4
+      ]
+    ]
+  },
+  "topTerms": [
+    [
+      "datos",
+      5
+    ],
+    [
+      "informes",
+      3
+    ],
+    [
+      "bases",
+      3
+    ],
+    [
+      "planilla",
+      2
+    ],
+    [
+      "burocracia",
+      2
+    ],
+    [
+      "rellenar",
+      2
+    ],
+    [
+      "historia",
+      2
+    ],
+    [
+      "paciente",
+      2
+    ],
+    [
+      "hola",
+      1
+    ],
+    [
+      "wapo",
+      1
+    ],
+    [
+      "revisiones",
+      1
+    ],
+    [
+      "bibliograficas",
+      1
+    ]
+  ]
+}

@@ -1,0 +1,51 @@
+id_paciente,edad,sexo,indicacion,tecnica,duracion_min,sangrado_ml,dolor_post_d1,dolor_post_d7,complicacion,dias_hasta_dieta_normal,satisfaccion_paciente
+PAC-001,5,M,SAOS,Bisturí eléctrico,22,10,2,5,Ninguna,8,5
+PAC-002,7,F,SAOS,Bisturí eléctrico,25,15,3,6,Ninguna,9,4
+PAC-003,4,M,Hipertrofia amigdalar,Bisturí eléctrico,20,8,2,5,Ninguna,7,5
+PAC-004,32,F,Amigdalitis recurrente,Bisturí eléctrico,35,30,4,7,Ninguna,11,4
+PAC-005,6,M,SAOS,Bisturí eléctrico,23,12,3,6,Ninguna,8,5
+PAC-006,8,F,SAOS,Bisturí eléctrico,28,18,3,7,Ninguna,9,4
+PAC-007,5,M,Hipertrofia amigdalar,Bisturí eléctrico,21,10,2,5,Ninguna,8,5
+PAC-008,27,M,Amigdalitis recurrente,Bisturí eléctrico,38,35,5,8,Hemorragia,13,3
+PAC-009,3,F,SAOS,Bisturí eléctrico,18,8,2,4,Ninguna,7,5
+PAC-010,9,M,SAOS,Bisturí eléctrico,24,14,3,6,Ninguna,9,4
+PAC-011,6,F,Hipertrofia amigdalar,Bisturí eléctrico,22,12,3,6,Ninguna,8,4
+PAC-012,45,M,Amigdalitis recurrente,Bisturí eléctrico,40,40,5,9,Ninguna,14,3
+PAC-013,38,M,Amigdalitis recurrente,Bisturí eléctrico,42,38,5,9,Hemorragia,14,3
+PAC-014,7,M,SAOS,Bisturí eléctrico,25,15,3,6,Ninguna,9,5
+PAC-015,4,F,SAOS,Bisturí eléctrico,19,9,2,5,Ninguna,7,5
+PAC-016,11,M,Amigdalitis recurrente,Bisturí eléctrico,30,20,4,7,Ninguna,10,4
+PAC-017,5,F,Hipertrofia amigdalar,Bisturí eléctrico,20,10,2,5,Ninguna,8,5
+PAC-018,8,M,SAOS,Bisturí eléctrico,26,16,3,7,Infección,11,3
+PAC-019,6,F,SAOS,Bisturí eléctrico,23,12,3,6,Ninguna,8,4
+PAC-020,35,F,Amigdalitis recurrente,Bisturí eléctrico,37,32,5,8,Ninguna,12,4
+PAC-021,7,M,Hipertrofia amigdalar,Bisturí eléctrico,24,14,3,6,Ninguna,9,4
+PAC-022,10,M,SAOS,Bisturí eléctrico,27,17,3,7,Ninguna,9,4
+PAC-023,22,F,Amigdalitis recurrente,Bisturí eléctrico,33,28,4,7,Hemorragia,12,3
+PAC-024,5,M,Hipertrofia amigdalar,Bisturí eléctrico,21,11,2,5,Ninguna,8,5
+PAC-025,6,F,SAOS,Bisturí eléctrico,22,12,3,6,Ninguna,8,5
+PAC-026,7,M,SAOS,Coblator,24,8,1,4,Ninguna,7,5
+PAC-027,5,F,SAOS,Coblator,23,7,2,4,Ninguna,7,5
+PAC-028,4,M,Hipertrofia amigdalar,Coblator,21,6,1,3,Ninguna,6,5
+PAC-029,30,F,Amigdalitis recurrente,Coblator,36,22,3,6,Ninguna,10,4
+PAC-030,8,M,SAOS,Coblator,27,10,2,5,Ninguna,8,4
+PAC-031,6,F,SAOS,Coblator,24,9,2,4,Ninguna,7,5
+PAC-032,3,M,Hipertrofia amigdalar,Coblator,19,5,1,3,Ninguna,6,5
+PAC-033,25,M,Amigdalitis recurrente,Coblator,34,20,3,6,Ninguna,10,4
+PAC-034,9,F,SAOS,Coblator,26,11,2,5,Ninguna,8,4
+PAC-035,5,M,SAOS,Coblator,22,8,2,4,Ninguna,7,5
+PAC-036,7,F,Hipertrofia amigdalar,Coblator,23,9,2,4,Ninguna,7,5
+PAC-037,40,M,Amigdalitis recurrente,Coblator,39,28,4,7,Hemorragia,12,3
+PAC-038,4,F,SAOS,Coblator,20,7,1,3,Ninguna,6,5
+PAC-039,10,M,SAOS,Coblator,27,12,2,5,Ninguna,8,4
+PAC-040,6,F,Hipertrofia amigdalar,Coblator,22,8,2,4,Ninguna,7,5
+PAC-041,15,M,Amigdalitis recurrente,Coblator,31,18,3,6,Ninguna,9,4
+PAC-042,5,F,Hipertrofia amigdalar,Coblator,21,7,1,3,Ninguna,6,5
+PAC-043,8,M,SAOS,Coblator,25,10,2,5,Infección,9,3
+PAC-044,33,F,Amigdalitis recurrente,Coblator,37,24,3,7,Ninguna,11,4
+PAC-045,7,M,SAOS,Coblator,24,9,2,4,Ninguna,7,5
+PAC-046,4,F,SAOS,Coblator,20,7,1,4,Ninguna,7,5
+PAC-047,12,F,Amigdalitis recurrente,Coblator,30,16,3,6,Ninguna,9,4
+PAC-048,6,M,Hipertrofia amigdalar,Coblator,23,8,2,4,Ninguna,7,4
+PAC-049,28,M,Amigdalitis recurrente,Coblator,35,22,4,7,Hemorragia,11,3
+PAC-050,5,F,SAOS,Coblator,22,8,2,4,Ninguna,7,5

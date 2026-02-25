@@ -1,0 +1,57 @@
+question,option,count,percentage
+specialty,otorrinolaringologia,15,100.0%
+q1_profile,Residente,6,40.0%
+q1_profile,Especialista 3 (>15 años),6,40.0%
+q1_profile,Especialista 1 (<5 años),1,6.7%
+q1_profile,Jefe de servicio / coordinación,1,6.7%
+q1_profile,Especialista 2 (5-15 años),1,6.7%
+q2_main_pain,Datos/estadística/tablas,7,46.7%
+q2_main_pain,Investigación y artículos,6,40.0%
+q2_main_pain,Burocracia administrativa,4,26.7%
+q2_main_pain,Historia clínica y documentación,4,26.7%
+q2_main_pain,Listas de espera y gestión de pacientes,3,20.0%
+q2_main_pain,Redaccion de informes clinicos,1,6.7%
+q2_main_pain,"Quirófano (gestión, informes, programación)",1,6.7%
+q2_main_pain,Revisión de pruebas e imágenes,1,6.7%
+q3_repetitive_tasks,Informes de consulta,6,40.0%
+q3_repetitive_tasks,Revisión bibliográfica / síntesis de papers,4,26.7%
+q3_repetitive_tasks,Presentaciones o sesiones clínicas,3,20.0%
+q3_repetitive_tasks,Informes quirúrgicos,3,20.0%
+q3_repetitive_tasks,"Informes de pruebas (audiometrías, TAC, etc.)",2,13.3%
+q3_repetitive_tasks,Búsqueda de información,2,13.3%
+q3_repetitive_tasks,Emails / coordinación / agendas,2,13.3%
+q3_repetitive_tasks,Codificación / estadística / scripts,2,13.3%
+q3_repetitive_tasks,Informes quirurgicos,1,6.7%
+q3_repetitive_tasks,Ninguna en especial,1,6.7%
+q3_repetitive_tasks,Respuestas a pacientes,1,6.7%
+q3_repetitive_tasks,Consentimientos informados,1,6.7%
+q3_repetitive_tasks,Informes para primaria,1,6.7%
+q4_1_ai_usage,"Sí, de forma habitual",13,86.7%
+q4_1_ai_usage,"No, nunca",1,6.7%
+q4_1_ai_usage,"Sí, alguna vez",1,6.7%
+q4_2_used_tools,He probado ChatGPT/Claude,14,93.3%
+q4_2_used_tools,Uso IA para papers,5,33.3%
+q4_2_used_tools,"Uso herramientas tipo Copilot, Google AI Studio, generadores de imágenes o presentaciones",3,20.0%
+q4_2_used_tools,Otro,1,6.7%
+q5_assistant_help,Escribir el informe de la consulta mientras hablo,6,40.0%
+q5_assistant_help,Ayudar con artículos o investigación,5,33.3%
+q5_assistant_help,Sugerir diagnósticos,4,26.7%
+q5_assistant_help,Organizar agenda y listas de pacientes,3,20.0%
+q5_assistant_help,Preparar documentos para el paciente,3,20.0%
+q5_assistant_help,Resumir la historia clínica del paciente antes de entrar,3,20.0%
+q5_assistant_help,Preparar sesiones clínicas o presentaciones,2,13.3%
+q5_assistant_help,Resumir la historia clinica del paciente antes de entrar,1,6.7%
+q6_main_barrier,"Nada, la usaría si estuviera disponible",4,26.7%
+q6_main_barrier,Falta de formación,4,26.7%
+q6_main_barrier,No está integrada en el sistema del hospital,3,20.0%
+q6_main_barrier,No se en que me podria ayudar,1,6.7%
+q6_main_barrier,No esta integrada en el sistema del hospital,1,6.7%
+q6_main_barrier,Falta de tiempo para aprender,1,6.7%
+q6_main_barrier,Dudas sobre privacidad de datos,1,6.7%
+q7_use_cases,Cómo hablar con IA (prompting) para resultados fiables,9,60.0%
+q7_use_cases,Análisis de tablas/datos (Excel/CSV),6,40.0%
+q7_use_cases,"Automatizaciones simples (plantillas, checklists, macros ligeras)",5,33.3%
+q7_use_cases,Resumir y estructurar texto clínico/científico (sin inventar),3,20.0%
+q7_use_cases,"Convertir ideas en documentos: protocolos, informes, emails, proyectos",3,20.0%
+q7_use_cases,Búsqueda con fuentes y citación (evidencia/guías),2,13.3%
+q7_use_cases,Crear presentaciones/sesiones en minutos,1,6.7%
