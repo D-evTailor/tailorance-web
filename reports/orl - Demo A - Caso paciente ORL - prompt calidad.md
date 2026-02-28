@@ -1,10 +1,6 @@
 User:
 ```
-Soy otorrinolaringólogo en un hospital público. Tengo un paciente varón de 45 años que acude a consulta con otalgia unilateral izquierda de 3 semanas de evolución, sin otorrea ni fiebre. Otoscopia normal, pero refiere dolor al masticar. Sin antecedentes de interés.
-Necesito:
-- Diagnóstico diferencial estructurado (más probable → menos probable) 
-- Pruebas complementarias que solicitarías para discriminar 
-- Señales de alarma ("red flags") que descartarían antes de dar el alta 
+Soy otorrinolaringólogo en un hospital y tengo un paciente varón de 45 años que acude a consulta con otalgia unilateral izquierda de 3 semanas de evolución, sin otorrea ni fiebre. Otoscopia normal, pero refiere dolor al masticar. Sin antecedentes de interés. Qué le pasa, ponlo de más a menos probable. Qué pruebas le hago para estar seguro. Algo grave?
 
 Formato: tabla con columnas [Diagnóstico | A favor | En contra | Siguiente paso]
 ```

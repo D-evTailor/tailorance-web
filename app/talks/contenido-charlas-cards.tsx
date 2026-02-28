@@ -14,7 +14,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
-import { FileText, NotebookPen, Presentation, ClipboardList, ChevronDown, LucideIcon } from "lucide-react";
+import { NotebookPen, Presentation, ClipboardList, ChevronDown, Wand2, LucideIcon } from "lucide-react";
 
 type RecursoSingle = {
   title: string;
@@ -22,6 +22,7 @@ type RecursoSingle = {
   href: string;
   type: "single";
   icon: LucideIcon;
+  internal?: boolean;
 };
 
 type RecursoVariants = {
@@ -44,13 +45,6 @@ const contenidoCharlas: (RecursoSingle | RecursoVariants)[] = [
     ],
   },
   {
-    title: "Guía para que la IA te responda lo que necesitas",
-    description: "PDF con pautas para formular preguntas y obtener mejores respuestas de la IA.",
-    href: "/content/charlas/guia-ia-responda.pdf",
-    type: "single",
-    icon: FileText,
-  },
-  {
     title: "Trabajar con la información",
     description: "Notebook para practicar el trabajo con información usando LLM.",
     type: "variants",
@@ -66,9 +60,17 @@ const contenidoCharlas: (RecursoSingle | RecursoVariants)[] = [
     type: "variants",
     icon: Presentation,
     variants: [
-      { label: "Otorrinolaringología", href: "/content/charlas/presentar-informacion-otorrinolaringologia.pdf" },
+      { label: "Otorrinolaringología", href: "/content/charlas/FINAL-ORL.ppt" },
       { label: "Hematología", href: "/content/charlas/presentar-informacion-hematologia.pdf" },
     ],
+  },
+  {
+    title: "Generador de prompts",
+    description: "Herramienta interactiva: rellena los campos con tu caso y genera un prompt profesional listo para pegar en cualquier IA.",
+    href: "/talks/generador-prompts",
+    type: "single",
+    icon: Wand2,
+    internal: true,
   },
 ];
 
@@ -94,11 +96,10 @@ export function ContenidoCharlasCards() {
               {recurso.type === "single" ? (
                 <Link
                   href={recurso.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  {...(recurso.internal ? {} : { target: "_blank", rel: "noopener noreferrer" })}
                   className="mt-2 inline-block text-sm text-ainure-300 transition-colors hover:text-ainure-200"
                 >
-                  Abrir →
+                  {recurso.internal ? "Abrir herramienta →" : "Abrir →"}
                 </Link>
               ) : (
                 <DropdownMenu>

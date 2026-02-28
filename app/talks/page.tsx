@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/card";
 import { Mic2, Stethoscope, Workflow, Sparkles } from "lucide-react";
 import { ContenidoCharlasCards } from "./contenido-charlas-cards";
+import { WorkshopSection } from "@/components/talks/workshop-section";
 
 const talks = [
   {
@@ -85,10 +86,12 @@ export default function TalksPage() {
           ))}
         </div>
 
-        {/* Contenido charlas */}
-        <section className="mx-auto mt-14 max-w-4xl md:mt-20">
-          <h2 className="mb-6 font-display text-2xl text-text-primary md:text-3xl">
-            <span className="text-ainure-300">Contenido formación</span>
+        <WorkshopSection />
+
+        {/* Recursos de la charla */}
+        <section id="recursos" className="mx-auto mt-14 max-w-4xl md:mt-20" aria-labelledby="recursos-heading">
+          <h2 id="recursos-heading" className="mb-6 font-display text-2xl text-text-primary md:text-3xl">
+            <span className="text-ainure-300">Recursos de la charla</span>
           </h2>
           <p className="mb-8 text-text-secondary">
             Material de apoyo de nuestra formación: guías, notebooks y presentaciones para consultar o descargar.

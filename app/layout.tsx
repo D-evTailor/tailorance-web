@@ -3,8 +3,7 @@ import type { Metadata } from "next";
 import { Fraunces, Manrope } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import { Header } from "@/components/layout/header";
-import { Footer } from "@/components/layout/footer";
+import { ClientAppShell } from "@/components/layout/client-app-shell";
 import { siteConfig } from "@/lib/site.config";
 
 const manrope = Manrope({ subsets: ["latin"], variable: "--font-sans" });
@@ -46,7 +45,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" suppressHydrationWarning>
-      <body className={`${manrope.variable} ${fraunces.variable} font-sans`}>
+      <body
+        className={`${manrope.variable} ${fraunces.variable} font-sans`}
+        suppressHydrationWarning
+      >
         <a
           href="#main-content"
           className="sr-only z-[60] rounded-md bg-ainure-300 px-4 py-2 font-medium text-black focus:not-sr-only focus:fixed focus:left-4 focus:top-4"
@@ -59,13 +61,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="min-h-screen flex flex-col">
-            <Header />
-            <main id="main-content" className="flex-1">
-              {children}
-            </main>
-            <Footer />
-          </div>
+          <ClientAppShell>{children}</ClientAppShell>
         </ThemeProvider>
       </body>
     </html>
